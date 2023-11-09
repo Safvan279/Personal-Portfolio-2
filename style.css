@@ -1,0 +1,321 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Inter:wght@800;900&family=Montserrat:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kenia&family=Lobster&display=swap'); */
+  @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Kenia&family=Lobster&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color: #112B3C !important;
+    font-family: 'Montserrat', sans-serif;
+    /* background-color: #DAF5FF !important; */
+}
+.mt-15{
+    margin-top: 2rem;
+}
+h1{
+    font-family: 'Inter', sans-serif;
+}
+.head{
+    font-size: 1.5rem;
+    text-align: center;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    padding: 16rem 0rem;
+
+}
+
+h1{
+    font-weight: 700 !important;
+}
+
+p{
+    font-size: 1.2rem;
+    margin-top: -20px;
+
+}
+
+/* nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;   
+}
+.nav-bg{
+    background-color: #112B3C !important;
+    height: 2rem;
+}
+a.nav-link{
+    color: white !important;
+}
+.nav-parent{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-logo{
+    width: 3rem;
+}
+
+.nav-ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-end;
+    padding-right: 0.5rem;
+    gap: 1rem;
+    font-size: 18px;
+}
+.navbar-nav{
+    font-size: 0.9rem;
+}
+
+.navbar-toggler{
+    background-color: whitesmoke !important;
+} */
+
+.hamburger{
+    display: flex;
+    justify-content: flex-end;
+}
+
+a{
+    text-decoration: none !important;
+}
+
+.head a{
+    text-decoration: none !important;
+    color: white !important;
+}
+/* a:hover{
+    color:white !important;
+} */
+.logo{
+    width: 5rem;
+}
+.about{
+    font-size: 1.5rem;
+    padding: 4rem;
+    color: white;
+
+    
+}
+.main{
+    padding: 0;
+}
+.about1{
+    display: flex;
+    font-size: 1rem;
+    color: white;
+    align-items: center;
+    gap: 7rem;
+    
+}
+.sub{
+    color: white;
+    font-family: 'Lobster', sans-serif;
+}
+.fs-2{
+    font-family: 'Abril Fatface', serif;
+    font-size: 3.5rem;
+}
+.con1{
+    list-style-type: none;
+    text-decoration: none;
+    align-items: center;
+}
+.insta{
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.about-h1{
+    gap: 7rem;
+}
+
+.about-img{
+    width: 30rem;
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    gap: 1rem;
+    justify-content: center;
+    
+}
+.skills{
+    padding: 3rem;
+    color: white;
+}
+
+.skills li{
+    border: 2px solid white;
+    padding: 1rem;
+}
+
+.skills li:hover{
+    font-family: 'Inter', sans-serif;
+}
+.contact{
+    padding: 3rem;
+    color: white;
+}
+.projects{
+    padding: 3rem;
+    color: white;
+}
+.btn-primary{
+    background-color: white;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+
+}
+.card-body{
+    padding: 2rem;
+
+}
+.card-text{
+    font-size: 1rem;
+}
+.all-card{
+    display: flex;
+    gap: 1rem;
+}
+
+.white{
+    color: white !important;
+    background-color: #1dadb4 !important;
+}
+
+.white:hover{
+    color: white !important;
+    background-color: #155357 !important;
+}
+
+.resume{
+    padding: 3rem;
+    color: white;
+}
+.b-submit{
+    text-align: center;
+}
+
+.btn-info{
+    --bs-btn-bg:  #2C7C80!important;
+    --bs-btn-color: white !important;
+    --bs-btn-hover-bg: #1dadb4 !important;
+    --bs-btn-active-bg: #0e3235!important;
+    --bs-btn-hover-color: white !important;
+}
+
+.btn-primary{
+    --bs-btn-bg:  #112B3C!important;
+    --bs-btn-color: white !important;
+    --bs-btn-hover-bg: #112B3C !important;
+    --bs-btn-active-bg: #0e3235!important;
+    --bs-btn-hover-color: white !important;
+}
+
+
+
+@media(max-width:769px){
+
+    p{
+        font-size: 1rem;
+    }
+
+    ul{
+        padding-left: 0 !important;
+    }
+
+    .about1{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+    gap: 2rem;
+    }
+
+    .skills ul{
+        flex-direction: column;
+    text-align: center;
+    margin-top: 5rem;
+    }
+
+    .about-h1,
+    .skills-h1,
+    .contact-h1,
+    .projects,
+    .resume{
+        text-align: center;
+    }
+}
+
+/*@media only screen and (max-width: 769px) {
+  body {
+    background-color: lightblue;
+  }
+}*/
+@media(max-width:769px){
+   .all-card{ display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+   }
+}
+@media(max-width:425px){
+    .about-img {
+    width: 20rem;
+}
+.all-card{
+
+}
+.nav-ul{
+    font-size: 14px;
+}
+.logo {
+    width: 4rem;
+    display: flex;
+    align-items: baseline;
+    gap: 0.5rem;
+}
+}
+@media(max-width:375px){
+    .nav-ul {
+    font-size: 12px;
+}
+
+.about-img {
+    width: 18rem;
+}
+.about {
+    padding: 2rem;
+}
+.head{
+    padding: 15rem 0rem;
+}
+
+
+}
+
+@media(max-width:320px){
+    .nav-ul {
+    font-size: 9px;
+}
+
+
+.head{
+    padding: 15rem 0rem;
+}
+
+.head h1{
+    font-size: 1.9rem;
+}
+
+}
