@@ -27,7 +27,7 @@ h1{
     align-items: center;
     flex-direction: column;
     color: white;
-    padding: 16rem 0rem;
+    padding: 23rem 0rem;
 
 }
 
@@ -86,6 +86,10 @@ a.nav-link{
 
 a{
     text-decoration: none !important;
+}
+a:hover{
+    color: red !important;
+    font-size: large;
 }
 
 .head a{
@@ -268,6 +272,10 @@ ul{
     flex-wrap: wrap;
     justify-content: center;
    }
+   .hamburger{
+    display: flex !important;
+    justify-content: center !important;
+}
 }
 @media(max-width:425px){
     .about-img {
@@ -286,7 +294,7 @@ ul{
     gap: 0.5rem;
 }
 }
-@media(max-width:375px){
+@media(max-width:376px){
     .nav-ul {
     font-size: 12px;
 }
@@ -299,6 +307,10 @@ ul{
 }
 .head{
     padding: 15rem 0rem;
+}
+.hamburger{
+    display: flex !important;
+    justify-content: center !important;
 }
 
 
@@ -316,6 +328,10 @@ ul{
 
 .head h1{
     font-size: 1.9rem;
+}
+.hamburger{
+    display: flex !important;
+    justify-content: center !important;
 }
 
 }
